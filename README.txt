@@ -18,11 +18,13 @@ The copyright for all work within this repository (minus the AIR Tools package)
 is the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
 
 Requirements are MATLAB (tested on 2016b) with CVX addon (http://cvxr.com/cvx/)
-and the astra toolbox (https://www.astra-toolbox.com/). We advise using the 
+and the astra toolbox (https://www.astra-toolbox.com/). We recommend using the 
 Mosek solver for CVX, free academic licenses are available 
-(http://cvxr.com/cvx/doc/mosek.html).
+(http://cvxr.com/cvx/doc/mosek.html). Any external libraries can be added to 
+the path using the startup script.
 
 Included scripts are:
+startup: Adds directories to path. Must be run before other scripts.
 Exp1: Generates Figure 7
 Exp2: Generates both plots of Figure 4
 Exp3: Generates Figure 3
