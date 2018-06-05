@@ -6,7 +6,9 @@ Rowan K. Leary, Paul A. Midgley, Christoph Brune, Marinus J. Lagerwerf.
 ============================================================
 
 This repository contains the code required to generate reconstructions 
-for the figures in the relevant paper (see paper.pdf).
+for the figures in the relevant paper (see paper.pdf). To run with alternative
+phantoms/settings in Exp4/5 simply uncomment/alter parameters in the first 
+section of the script file.
 
 This repository comes with the AIR Tools package (Per Christian Hansen, 
 https://www.sciencedirect.com/science/article/pii/S0377042711005188) for 
